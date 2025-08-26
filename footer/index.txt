@@ -1,0 +1,32 @@
+
+Effect	Variable	Example Value
+Height of explosion	verticalForce	22 (increase it)
+Number of images	imageParticleCount	5 (increase it)
+Gravity (fall speed)	gravity	0.25 (lower/slower)
+Explosion duration	resetDelay	500 (increase it)
+
+
+Time (duration): Change resetDelay in the config object.
+This is the time (in ms) before the explosion resets.
+resetDelay: 500, // Increase for longer explosion before reset
+
+The time and gravity of the explosion:
+
+Gravity: Change gravity in the config object.
+Lower gravity for a slower fall, higher for a faster fall.
+
+
+
+gravity: 0.25, // Lower = slower fall, higher = faster fall
+
+How many images explode:
+Change the value of imageParticleCount.
+
+Increase this number to have more images in the explosion.
+const imageParticleCount = 5; // Increase this for more images
+How high the image will go:
+Change the value of verticalForce in the config object.
+
+Increase verticalForce for a higher explosion (images go higher).
+
+verticalForce: 22, // Increase this value for higher explosion
